@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,*:before,*:after{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+/*Custom*/
+h1{
+	font-weight: 700;
+	font-size: 25px;
+}
+h2{
+	font-weight: 500;
+	font-size: 20px;
+}
+ul{
+	list-style-type: circle;
+}
+/*Body*/
+body{
+	font: 300 20px/22px Roboto, "Microsoft JhengHei", Helvetica, Arial, sans-serif;
+}
+/*Header*/
+.personalInfo, .introduction{
+	width: 900px;
+}
+.personalInfo{
+	margin: 40px auto;
+	padding: 10px 5px;	
+	line-height: 44px;
+	text-align: center;
+}
+.name{
+	font-size:30px;
+	font-weight: 700;
+}
+.mail{
+	font-weight: 400;
+	font-size: 16px;
+}
+.engName{
+	color: #a9b8b9;
+}
+.mail a{
+	text-decoration: none;
+	color: #648880;
+}
+.mail a:hover{
+	color: #a9b8b9;
+}
+#profilePic{
+	width: 20%;
+	border-radius: 70%;
+}
+/*Footer*/
+footer{
+	margin: 0 auto 100px auto;
+}
+/*Profile*/
+.introduction{
+	margin: 10px auto;
+}
+.title{
+	border-bottom: 5px solid #c0c0c0;
+	font-size:30px;
+	padding-left:20px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	letter-spacing: .9px;
+	text-transform: uppercase;
+}
+.content{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 30px;
+}
+/*Education*/
+.content h1{
+	text-transform: uppercase;
+}
+.content ul{
+	margin-top:15px;
+	margin-bottom: 15px;
+	padding-left: 30px;
+}
+.content ul li{
+	font-weight: 500; 
+}
+.content ul li div{
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 40px; 
+}
+.department{
+	display: inline-block;
+	width: 50%;
+}
+.date{
+	display: inline-block;
+	width: 45%;
+	text-align: right;
+}
+/*Skills*/
+.col3{
+	padding: 10px 10px;
+	border: 4px solid #648880;
+	border-radius:5px;
+	display: inline-block;
+	width: 30%;
+	height: 135px;
+	margin:0 1.5% 0 1.5%;
+	vertical-align: top;
+}
+.col3 h1{
+	color: #5A7F5A;
+}
