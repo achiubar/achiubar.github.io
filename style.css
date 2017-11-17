@@ -156,10 +156,22 @@ footer{
 	border-radius:5px;
 	display: inline-block;
 	width: 30%;
-	height: 135px;
+	height: 170px;
 	margin:0 1.5% 0 1.5%;
 	vertical-align: top;
 }
 .col3 h1{
 	color: #5A7F5A;
+}
+.col3 ul ul{
+	margin-top:3px;
+	list-style-type: square;
+	font-size: 17px;
+}
+.col3 ul ul a{
+	text-decoration: none;
+	color: #648880;
+}
+.col3 ul ul a:hover{
+	color: #a9b8b9;
 }
